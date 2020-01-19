@@ -1,0 +1,90 @@
+﻿@model LMSystem.Models.BorrowedBook
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>BorrowedBook</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.sId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.bId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.bId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StudentId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StudentId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StudentName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StudentName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.author)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.author)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Publisher)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Publisher)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.subjectMatter)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.subjectMatter)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.isReturned)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.isReturned)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

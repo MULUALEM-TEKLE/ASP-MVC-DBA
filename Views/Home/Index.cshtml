@@ -1,0 +1,67 @@
+﻿ 
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Getting started</h2>
+        <p>
+            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
+            enables a clean separation of concerns and gives you full control over markup
+            for enjoyable, agile development.
+        </p>
+        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Get more libraries</h2>
+        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
+        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Web Hosting</h2>
+        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+    </div>
+</div>*@
+<style>
+    .learnmore {
+        display: block;
+        padding: 12px 40px;
+        border: 2px solid #19c880;
+        font-size: 13px;
+        font-weight: bold;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        text-decoration: none;
+    }
+</style>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="row">
+                <div class="col-12" style="padding:80px"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-6" style="padding:10px">
+                    <p style="padding:5px;font-weight:500; " class="text-success">GET STARTED WITH ONLINE LIBRARY MANAGEMENT SYSTEM</p>
+                    <div class="h1" style="padding:5px;font-size:5rem">
+                        BEST WAY TO<br />
+                        MANAGE YOUR<br /> BOOKS
+                    </div>
+                    <div class="text-white " style="padding:15px">
+                        AAiT online library management system is a form of LMS<br />
+                        which will enable us to access, borrow and check books we want
+                    </div>
+                    <div>
+                        <button style="margin:25px" class="learnmore">@Html.ActionLink("Learn More", "About")  &raquo;</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
